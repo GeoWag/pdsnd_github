@@ -1,8 +1,8 @@
 ### Date created
-Include the date you created this project and README file.
+January 25, 2020
 
 ### Project Title
-Replace the Project Title
+Interactive Bikeshare Data Exploration
 
 ### Description
 Describe what your project is about and what it does
