@@ -55,14 +55,10 @@ def get_filters():
     else:
          month = 'all'
          day = 'all'
-         print('\nAll right, we will not do any filtering.')
-        
-    
-    
+         print('\nAll right, we will not do any filtering.')        
     
     print('-'*40)
     return city, month, day
-
 
 def load_data(city, month, day):
     """
@@ -80,7 +76,6 @@ def load_data(city, month, day):
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     
     return df
-
 
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
@@ -206,7 +201,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
