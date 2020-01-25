@@ -23,11 +23,11 @@ def get_filters():
     while city not in ['chicago', 'new york city', 'washington']:
         city = str(input('I am afraid that did not work. Please enter Chicago, New York City or Washington.\n')).lower()
 
-    input_filter = str(input('Would you like to filter the data by month, day of the week of not at all?\n')).lower()
-    while input_filter not in ['month', 'day of the week', 'none']:
-        input_filter = str(input('I don`t understand this. Please type month, day of the week or none.\n'))
+    time_filter = str(input('Would you like to filter the data by month, day of the week of not at all?\n')).lower()
+    while time_filter not in ['month', 'day of the week', 'none']:
+        time_filter = str(input('I don`t understand this. Please type month, day of the week or none.\n'))
     
-    if input_filter == 'month':
+    if time_filter == 'month':
     
     # get user input for month (all, january, february, ... , june)
         month = str(input('Which month would like like to explore? You can select any month from January to June, or all.\n')).lower()
@@ -41,7 +41,7 @@ def get_filters():
         while day not in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
             day = str(input('I am afraid that did not work. You can choose any day from Monday to Sunday, or all.\n')).lower()
     
-    elif input_filter == 'day of the week':
+    elif time_filter == 'day of the week':
         day = str(input('Which day of the week would you like to learn more about?\n')).lower()
 
         while day not in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
