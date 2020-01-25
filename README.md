@@ -18,5 +18,9 @@ This was a great exercise as a first project to use loops, interactive user inpu
 > washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+http://introtopython.org/while_input.html  
+* used to better understand how to use while loops for user input
+
+https://stackoverflow.com/questions/20297332/how-do-i-retrieve-the-number-of-columns-in-a-pandas-data-frame
+* used to understand how to get the number of colums
 
