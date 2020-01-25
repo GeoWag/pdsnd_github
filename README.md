@@ -2,7 +2,7 @@
 January 25, 2020
 
 ### Project Title
-Interactive Bikeshare Data Exploration
+*Interactive Bikeshare Data Exploration*
 
 ### Description
 In this project, as part of the Udacity Programming for Data Science with Python Course, I created an interactive user experience with python. Users can learn about **bikeshare data** from 
