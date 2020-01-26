@@ -12,6 +12,8 @@ In this project, as part of the Udacity Programming for Data Science with Python
 
 This was a great exercise as a first project to use loops, interactive user input and functions. **Filtering** of which data was displayed to the user was **based on user input**.
 
+Furthermore, it required some thorough thinking, as some data was only included in New York City and Chicago, but not in Washington. So, not all functions could be applied equally.
+
 ### Files used
 - [x] chicago.csv
 - [x] new_york_city.csv
